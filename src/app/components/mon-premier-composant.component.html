@@ -1,0 +1,18 @@
+<p>{{ criDeVictoire }}</p>
+{{ getBanane() }}
+
+<ul>
+    <!-- toujours un let  -->
+<li *ngFor="let movie of movies">  
+    <!-- ngFor permet de looper sur notre tableau -->
+{{movie.title}}
+<p>
+    {{ movie.description }}
+</p>
+
+</li>
+
+</ul>
+
+
+<!-- ng generate service -->
